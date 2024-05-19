@@ -1,0 +1,22 @@
+ion-content {
+    --ion-background-color: white !important;
+    -webkit-padding-start: 2rem;
+    -webkit-padding-end: 2rem;
+   
+
+    .title{
+        
+        margin: 15px;
+        text-shadow: 2px 2px 4px black;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 2px 2px 4px black;
+        -webkit-text-stroke-color:  white;
+        -webkit-text-stroke-width: 0.5px;
+        color: black;
+    }
+
+ion-grid{
+    grid-template-columns: repeat(3, 1fr);
+}
+}
