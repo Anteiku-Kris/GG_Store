@@ -1,0 +1,21 @@
+<div>
+<ion-content [fullscreen]="true">
+  <ion-row>
+  <ion-card *ngFor="let character of characters" class="custum-card">
+    <img src="{{character.image}}" class="custum-img">
+    <ion-card-header class="custum-header">
+      <div>
+        <ion-card-title class="custum-title">
+          {{character.name}}
+          </ion-card-title>
+      </div>
+    </ion-card-header>
+    <ion-card-content class="custum-card-content">
+      <div class="container">
+        <p>{{character.species}}</p>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-row>
+</ion-content>
+</div>
